@@ -1,0 +1,19 @@
+{
+    "name": "richi/integracion-php",
+    "description": "Integración ISIPASS PHP",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Integrate",
+            "email": "integrate.bolivia@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    }
+}
